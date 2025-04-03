@@ -12,12 +12,9 @@
         WindowStartupLocation="CenterScreen">
 
     <Window.Resources>
-        <!-- Orbitron Font for Rocket Theme -->
+        <!-- Your Fonts -->
         <FontFamily x:Key="OrbitronFont">/Fonts/Orbitron-Regular.ttf#Orbitron</FontFamily>
-        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
 
-        <!-- ComboBox Stili (Roket Teması) -->
-        
     </Window.Resources>
 
     <Grid>
@@ -85,7 +82,7 @@
                     <!-- COM Port Dropdown -->
                     <ComboBox Name="PortNameComboBox" 
                               Width="200" 
-                              Style="{StaticResource RocketComboBoxStyle}" 
+                              Style="{StaticResource SpaceComboBoxStyle}" 
                               Margin="0,5">
                         <ComboBoxItem Content="COM1"/>
                         <ComboBoxItem Content="COM2"/>
@@ -95,7 +92,7 @@
                     <!-- Baud Rate Dropdown -->
                     <ComboBox Name="BaudRateComboBox" 
                               Width="200" 
-                              Style="{StaticResource RocketComboBoxStyle}" 
+                              Style="{StaticResource SpaceComboBoxStyle}" 
                               Margin="0,5">
                         <ComboBoxItem Content="9600"/>
                         <ComboBoxItem Content="19200"/>
@@ -107,7 +104,7 @@
                     <!-- Data Bits Dropdown -->
                     <ComboBox Name="DataBitsComboBox" 
                               Width="200" 
-                              Style="{StaticResource RocketComboBoxStyle}" 
+                              Style="{StaticResource SpaceComboBoxStyle}" 
                               Margin="0,5">
                         <ComboBoxItem Content="8"/>
                         <ComboBoxItem Content="7"/>
@@ -116,7 +113,7 @@
                     <!-- Parity Dropdown -->
                     <ComboBox Name="ParityComboBox" 
                               Width="200" 
-                              Style="{StaticResource RocketComboBoxStyle}" 
+                              Style="{StaticResource SpaceComboBoxStyle}" 
                               Margin="0,5">
                         <ComboBoxItem Content="None"/>
                         <ComboBoxItem Content="Even"/>
@@ -126,7 +123,7 @@
                     <!-- Stop Bits Dropdown -->
                     <ComboBox Name="StopBitsComboBox" 
                               Width="200" 
-                              Style="{StaticResource RocketComboBoxStyle}" 
+                              Style="{StaticResource SpaceComboBoxStyle}" 
                               Margin="0,5">
                         <ComboBoxItem Content="One"/>
                         <ComboBoxItem Content="Two"/>
