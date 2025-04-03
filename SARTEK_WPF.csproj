@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+	<TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\background.png" />
+    <None Remove="Assets\logo.ico" />
+    <None Remove="Assets\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="HarfBuzzSharp" Version="8.3.1-preview.2.3" />
+    <PackageReference Include="HarfBuzzSharp.NativeAssets.Win32" Version="8.3.1-preview.2.3" />
+    <PackageReference Include="HelixToolkit" Version="2.26.0" />
+    <PackageReference Include="HelixToolkit.Core.Wpf" Version="2.26.0" />
+    <PackageReference Include="HelixToolkit.Wpf.Input" Version="2.26.0" />
+    <PackageReference Include="LiveChartsCore" Version="2.0.0-rc5.4" />
+    <PackageReference Include="LiveChartsCore.SkiaSharpView" Version="2.0.0-rc5.4" />
+    <PackageReference Include="LiveChartsCore.SkiaSharpView.WPF" Version="2.0.0-rc5.4" />
+    <PackageReference Include="OpenTK" Version="5.0.0-pre.13" />
+    <PackageReference Include="SkiaSharp" Version="3.118.0-preview.2.3" />
+    <PackageReference Include="SkiaSharp.HarfBuzz" Version="3.118.0-preview.2.3" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Win32" Version="3.118.0-preview.2.3" />
+    <PackageReference Include="SkiaSharp.Views.Desktop.Common" Version="3.118.0-preview.2.3" />
+    <PackageReference Include="SkiaSharp.Views.WPF" Version="3.118.0-preview.2.3" />
+    <PackageReference Include="System.IO.Ports" Version="9.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\background.png" />
+    <Resource Include="Assets\logo.ico" />
+    <Resource Include="Assets\logo.png" />
+  </ItemGroup>
+
+</Project>
