@@ -5,6 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SARTEK_WPF"
         xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
+        xmlns:vmms="clr-namespace:SARTEK_WPF.ViewModels.Mapsui"
+        xmlns:vms="clr-namespace.SARTER_WPF.Views.Mapsui"
+        xmlns:vlc="clr-namespace:SARTEK_WPF.Views.Livecharts2;assembly=SARTEK_WPF"
+        xmlns:vmlc="clr-namespace:SARTEK_WPF.ViewModels.Livecharts2;assembly=SARTEK_WPF"
         mc:Ignorable="d"
         Title="SARTEK" 
         WindowState="Maximized" 
@@ -16,7 +20,7 @@
         <FontFamily x:Key="OrbitronFont">/Fonts/Orbitron-Regular.ttf#Orbitron</FontFamily>
 
     </Window.Resources>
-
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="960"/>
@@ -31,12 +35,12 @@
 
         <!-- Transparent Content Area -->
         <Border Background="#AA000000" CornerRadius="10" Padding="10" Margin="90,90,0,50">
-            <local:AltitudeView HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            <vlc:AltitudeView HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
         </Border>
         <Border Background="#AA000000" CornerRadius="10" Padding="10" Margin="960,90,90,50" Grid.ColumnSpan="2">
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>

@@ -1,5 +1,5 @@
 ﻿<UserControl
-    x:Class="SARTEK_WPF.AltitudeView"
+    x:Class="SARTEK_WPF.Views.Livecharts2.AltitudeView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"

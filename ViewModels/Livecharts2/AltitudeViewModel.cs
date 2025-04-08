@@ -15,7 +15,7 @@ using LiveChartsCore.Kernel.Sketches;
 using CommunityToolkit.Mvvm.Input;
 
 
-namespace SARTEK_WPF
+namespace SARTEK_WPF.ViewModels.Livecharts2
 {
     public partial class AltitudeViewModel : INotifyPropertyChanged
     {
@@ -57,7 +57,8 @@ namespace SARTEK_WPF
 
         public AltitudeViewModel()
         {
-            
+
+
 
             Series = [
             new LineSeries<ObservablePoint>

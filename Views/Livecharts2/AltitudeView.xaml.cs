@@ -16,7 +16,7 @@ using CommunityToolkit.Mvvm.Input;
 using System.Windows.Controls;
 
 
-namespace SARTEK_WPF
+namespace SARTEK_WPF.Views.Livecharts2
 {
     public partial class AltitudeView : UserControl
     {
