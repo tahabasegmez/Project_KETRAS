@@ -3,11 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:SARTEK_WPF.Views.Mapsui"
+             xmlns:local="clr-namespace:SARTEK_WPF.Views.Mapsui;assembly=SARTEK_WPF"
              xmlns:mapsui="clr-namespace:Mapsui.UI.Wpf;assembly=Mapsui.UI.Wpf"
              xmlns:vmms="clr-namespace:SARTEK_WPF.ViewModels.Mapsui;assembly=SARTEK_WPF"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+    
     <UserControl.DataContext>
         <vmms:BaseMapViewModel/>
     </UserControl.DataContext>
