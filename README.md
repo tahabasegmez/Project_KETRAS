@@ -1,6 +1,6 @@
 # Project_KETRAS
 
-🚧 Project Under Development
+🚧 Under Development
 
 ## License
 
