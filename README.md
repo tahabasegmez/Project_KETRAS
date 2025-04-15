@@ -1,4 +1,8 @@
 # Project_KETRAS
 
-This project is licensed under the GNU GPLv3 License.  
-Unauthorized use, distribution, or reproduction of any part of this project without proper attribution is strictly prohibited.
+🚧 Project Under Development
+
+## License
+
+This project is licensed under the GNU General Public License v3.0.  
+See the [LICENSE](./LICENSE) file for more details.
